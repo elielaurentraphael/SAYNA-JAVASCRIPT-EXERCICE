@@ -28,6 +28,6 @@ function divisors(number) {
     console.log("[" + arr + "]")
 }
 
-divisors(15)
-divisors(7)
-divisors(24)
+divisors(15);
+divisors(7);
+divisors(24);
