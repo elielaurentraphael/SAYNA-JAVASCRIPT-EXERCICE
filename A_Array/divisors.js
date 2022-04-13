@@ -1,17 +1,20 @@
 function divisors(number) {
-    var text = [];
+    var arr = [];
     var i = 1;
     while (i <= number) {
         if ((number % i) === 0 && i < number) {
-            text += i + ", ";
+            arr += i + ", ";
             i++;
         } else if (i === number) {
-            text += i
+            arr += i
+            i++;
         } else {
             i++;
         }
     }
-    console.log("[" + text + "]")
+    console.log("[" + arr + "]")
 }
 
+divisors(15)
+divisors(7)
 divisors(24)
