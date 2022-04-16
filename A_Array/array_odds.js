@@ -10,9 +10,9 @@
 */
 
 function arrayOdds(Array) {
-    var x = Array.length;
-    var i = 0;
-    var y = 0;
+    let x = Array.length;
+    let i = 0;
+    let y = 0;
     while (i < x) {
         if (Array[i] % 2 !== 0) {
             y++;

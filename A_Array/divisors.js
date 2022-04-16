@@ -12,8 +12,8 @@
 */
 
 function divisors(number) {
-    var arr = [];
-    var i = 1;
+    let arr = [];
+    let i = 1;
     while (i <= number) {
         if ((number % i) === 0 && i < number) {
             arr += i + ", ";

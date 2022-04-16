@@ -1,5 +1,5 @@
 /* 
- #Créez un fichier reverse - array.js et résolvez la fonction ci - dessous:
+ #Créez un fichier reverse-array.js et résolvez la fonction ci - dessous:
 
  // Ecrivez une fonction `reverseArray` qui accepte un tableau comme argument.
 
@@ -8,3 +8,14 @@
  console.log(reverseArray(["Four", "Five", "Six", "Seven"])); // ['Seven', 'Six', 'Five', 'Four']
  console.log(reverseArray([6, 1, 7])); // [7, 1, 6]
 */
+
+let reverseArray = function(arr) {
+    let arra = [];
+    for (i = arr.length - 1; i >= 0; i--) {
+        arra.push(arr[i]);
+    }
+    return arra;
+}
+
+console.log(reverseArray(["Four", "Five", "Six", "Seven"]));
+console.log(reverseArray([6, 1, 7]));

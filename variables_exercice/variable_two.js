@@ -1,10 +1,10 @@
 let mango;
 console.log(mango); // undefined
-mango = 10; // premier assignement
+mango = 10;
 console.log(mango); // 10
-mango + 1; // expression invalide
+mango + 1;
 console.log(mango); // 10
-mango += 1; // incrementation valide
+mango += 1;
 console.log(mango); // 11
 let banana = mango;
 console.log(banana); // 11
