@@ -12,18 +12,22 @@
  console.log(longestWord("elephant down")); // "elephant".
 */
 
-
 function longestWord(phrase) {
     const arr = phrase.split(' ');
-    let leng = [];
+    let x;
     for (let i = 0; i < arr.length; i++) {
-        leng.push(arr[i].length);
+        if (i > 0 && x.length == arr[i].length) {
+            x = arr[i];
+        } else if (i > 0 && x.length < arr[i].length) {
+            x = arr[i];
+        } else if (i > 0 && x.length > arr[i].length) {
+            x = x;
+        } else { x = arr[i]; };
     }
-    return leng
-
-    function maximum(leng) {
-        return Math.max.apply(null, leng);
-    }
+    return x;
 }
 
-console.log(longestWord("I am pretty hungry"));
+console.log(longestWord("I am pretty hungry")); // hungry
+console.log(longestWord("nous devrions penser en dehors de la boîte")); // devrions
+console.log(longestWord("down the rabbit hole")); // rabbit
+console.log(longestWord("elephant down")); // elephant

@@ -1,7 +1,8 @@
 /*
- #Créer un fichier word - count.js et résoudre la fonction ci - dessous:
+ #Créer un fichier word-count.js et résoudre la fonction ci - dessous:
 
- // Ecrivez une fonction `wordCount(sentence, targetWords)` qui accepte une chaîne de phrase et un tableau de mots cibles. 
+ // Ecrivez une fonction `wordCount(sentence, targetWords)` qui accepte une chaîne de phrase et un tableau 
+ de mots cibles. 
 
  // La fonction doit retourner un compte du nombre de mots de la phrase qui se trouvent dans `targetWords`.
 
