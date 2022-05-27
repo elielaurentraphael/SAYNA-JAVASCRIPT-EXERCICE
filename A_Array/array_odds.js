@@ -24,6 +24,6 @@ function arrayOdds(Array) {
     console.log(y);
 }
 
-arrayOdds([4, 7, 2, 5, 9]);
-arrayOdds([11, 31, 58, 99, 21, 60]);
-arrayOdds([100, 40, 4]);
+arrayOdds([4, 7, 2, 5, 9]); // 3
+arrayOdds([11, 31, 58, 99, 21, 60]); // 4
+arrayOdds([100, 40, 4]); // 0

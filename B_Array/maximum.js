@@ -18,6 +18,6 @@ function maximum(arr) {
     } else { return Math.max.apply(null, arr); }
 }
 
-console.log(maximum([4, 6, 3, 9]));
-console.log(maximum([13, 15, 21, 11, 2]));
-console.log(maximum([]));
+console.log(maximum([4, 6, 3, 9])); // 9
+console.log(maximum([13, 15, 21, 11, 2])); // 21
+console.log(maximum([])); // null

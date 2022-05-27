@@ -20,5 +20,5 @@ function stringsToNum(tablo) {
     console.log("[" + leng + "]");
 }
 
-stringsToNum(["orange", "game", "movie", "beau"]);
-stringsToNum(["he", "off", "handmade"]);
+stringsToNum(["orange", "game", "movie", "beau"]); // [6, 4, 5, 4]
+stringsToNum(["he", "off", "handmade"]); // [2, 3, 8]

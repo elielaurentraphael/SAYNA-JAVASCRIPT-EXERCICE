@@ -21,7 +21,7 @@ function arraySum(tableau) {
     console.log(sum);
 }
 
-arraySum([6, 2, 3]);
-arraySum([7, 6, -5, 2]);
-arraySum([8]);
-arraySum([]);
+arraySum([6, 2, 3]); // 11
+arraySum([7, 6, -5, 2]); // 10
+arraySum([8]); // 8
+arraySum([]); // 0

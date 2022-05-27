@@ -1,6 +1,6 @@
 console.log("somestringtext" [3]); // e
 console.log("éléphant" [1]); // l
-console.log("animal".longueur); // undefined
+console.log("animal".length); // 6
 console.log("animal".length - 1); // 5
 console.log("yesJOHN".toUpperCase()); //YESJOHN
 console.log("hey friends call me" [2] === "y"); // true

@@ -29,6 +29,6 @@ function numberRange(min, max, step) {
     console.log("[" + arr + "]");
 }
 
-numberRange(10, 40, 5);
-numberRange(14, 24, 3);
-numberRange(8, 35, 6);
+numberRange(10, 40, 5); // [10, 15, 20, 25, 30, 35, 40]
+numberRange(14, 24, 3); // [14, 17, 20, 23]
+numberRange(8, 35, 6); // [8, 14, 20, 26, 32]

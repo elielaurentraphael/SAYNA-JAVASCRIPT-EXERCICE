@@ -29,5 +29,5 @@ function commonElements(arr1, arr2) {
     console.log(arr3);
 }
 
-commonElements(["a", "c", "d", "b"], ["b", "a", "y"]);
-commonElements([4, 7], [32, 7, 1, 4]);
+commonElements(["a", "c", "d", "b"], ["b", "a", "y"]); // [ 'a', 'b' ]
+commonElements([4, 7], [32, 7, 1, 4]); // [ 4, 7 ]
