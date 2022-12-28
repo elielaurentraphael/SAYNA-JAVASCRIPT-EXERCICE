@@ -1,8 +1,8 @@
 /*
  #Créez un fichier common - elements.js et résolvez la fonction ci - dessous:
 
- // Écrivez une fonction `commonElements` qui accepte deux tableaux en tant que arguments.
- // La fonction doit retourner un nouveau tableau contenant les éléments qui se trouvent dans 
+ Écrivez une fonction `commonElements` qui accepte deux tableaux en tant que arguments.
+ La fonction doit retourner un nouveau tableau contenant les éléments qui se trouvent dans 
  les deux tableaux d'entrée. L'ordre des éléments dans le tableau de sortie n'a pas d'importance 
  tant que la fonction renvoie les bons éléments.
 
@@ -15,18 +15,17 @@
 */
 
 function commonElements(arr1, arr2) {
-    let arr3 = [];
-    let i = 0;
-    do {
-        for (let x of arr2) {
-            if (arr1[i] == x) {
-                arr3.push(arr1[i]);
-            }
-        }
-        i++;
+  let arr3 = [];
+  let i = 0;
+  do {
+    for (let x of arr2) {
+      if (arr1[i] === x) {
+        arr3.push(arr1[i]);
+      }
     }
-    while (i < arr1.length);
-    console.log(arr3);
+    i++;
+  } while (i < arr1.length);
+  console.log(arr3);
 }
 
 commonElements(["a", "c", "d", "b"], ["b", "a", "y"]); // [ 'a', 'b' ]
